@@ -1,0 +1,6 @@
+#Impex for import simple data venues
+
+INSERT_UPDATE Venue; code[unique = true]; name                      ; location
+                   ; A001               ; Rammstein Riga            ; Riga sport palace
+                   ; A002               ; Lil Peep Minsk            ; Dynamo station
+                   ; A003               ; Kendrick Lamar California ; California, 228 Green Street, 1
