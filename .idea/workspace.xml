@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876dab6a-1e8a-4879-ba71-12bfe0aaf440" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/ant.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ant.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours/concerttours-testclasses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours/concerttours-testclasses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -79,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1579257845762</updated>
-      <workItem from="1579257847820" duration="2395000" />
+      <workItem from="1579257847820" duration="3916000" />
     </task>
     <servers />
   </component>
