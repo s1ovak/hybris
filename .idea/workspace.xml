@@ -3,15 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="876dab6a-1e8a-4879-ba71-12bfe0aaf440" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/facades/impl/DefaultTourFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/facades/impl/DefaultTourFacade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Attributes$MusicType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Attributes$MusicType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Attributes$Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Attributes$Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Attributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Attributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Enumerations$ConcertType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Enumerations$ConcertType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Enumerations$MusicType.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Enumerations$MusicType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Enumerations.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Enumerations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Relations.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$Relations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$TC.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants$TC.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/constants/GeneratedConcerttoursConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/jalo/GeneratedConcerttoursManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/jalo/GeneratedConcerttoursManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/src/concerttours/facades/impl/DefaultTourFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/src/concerttours/facades/impl/DefaultTourFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/web/webroot/WEB-INF/views/TourDetails.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/web/webroot/WEB-INF/views/TourDetails.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-items.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579257845762</updated>
       <workItem from="1579257847820" duration="7998000" />
-      <workItem from="1579503120510" duration="7768000" />
+      <workItem from="1579503120510" duration="9621000" />
     </task>
     <servers />
   </component>
