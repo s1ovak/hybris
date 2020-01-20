@@ -3,16 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="876dab6a-1e8a-4879-ba71-12bfe0aaf440" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/events/BandAlbumSalesEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/events/BandAlbumSalesEvent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/events/BandAlbumSalesEventListenerIntegrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/events/BandAlbumSalesEventListenerIntegrationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedNews.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/src/concerttours/events/BandAlbumSalesEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/src/concerttours/events/BandAlbumSalesEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/testsrc/concerttours/events/BandAlbumSalesEventListenerIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/testsrc/concerttours/events/BandAlbumSalesEventListenerIntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours/concerttours-testclasses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours/concerttours-testclasses.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -88,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579257845762</updated>
       <workItem from="1579257847820" duration="7998000" />
-      <workItem from="1579503120510" duration="13585000" />
+      <workItem from="1579503120510" duration="15788000" />
     </task>
     <servers />
   </component>
