@@ -50,4 +50,5 @@
         <property name="flexibleSearchService" ref="flexibleSearchService"/>
     </bean>
 
+    <bean id="concertDaysUntilAttributeHandler" class="concerttours.attributehandlers.ConcertDaysUntilAttributeHandler"/>
 </beans>
