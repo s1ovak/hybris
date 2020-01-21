@@ -9,8 +9,6 @@
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedNews.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours/concerttours-testclasses.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours/concerttours-testclasses.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +86,8 @@
       <option name="presentableId" value="Default" />
       <updated>1579257845762</updated>
       <workItem from="1579257847820" duration="7998000" />
-      <workItem from="1579503120510" duration="15788000" />
+      <workItem from="1579503120510" duration="16456000" />
+      <workItem from="1579589396095" duration="3017000" />
     </task>
     <servers />
   </component>
