@@ -3,7 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="876dab6a-1e8a-4879-ba71-12bfe0aaf440" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/localextensions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/localextensions.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/jalo/GeneratedBand.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/jalo/GeneratedBand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/jalo/GeneratedConcerttoursManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/jalo/GeneratedConcerttoursManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/service/impl/DefaultBandServiceUnitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/service/impl/DefaultBandServiceUnitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/setup/ConcerttoursCustomSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/setup/ConcerttoursCustomSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-items.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/impex/concerttours-bands.impex" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/impex/concerttours-bands.impex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/impex/concerttours-yBandTour.impex" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/impex/concerttours-yBandTour.impex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/src/concerttours/setup/ConcerttoursCustomSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/src/concerttours/setup/ConcerttoursCustomSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/testsrc/concerttours/service/impl/DefaultBandServiceUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/testsrc/concerttours/service/impl/DefaultBandServiceUnitTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +31,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Impex File" />
       </list>
     </option>
   </component>
@@ -81,7 +96,7 @@
       <updated>1579257845762</updated>
       <workItem from="1579257847820" duration="7998000" />
       <workItem from="1579503120510" duration="16456000" />
-      <workItem from="1579589396095" duration="8796000" />
+      <workItem from="1579589396095" duration="11558000" />
     </task>
     <servers />
   </component>

@@ -16,7 +16,7 @@ INSERT_UPDATE CatalogVersion;catalog(id)[unique=true];version[unique=true];activ
                             ;$productCatalog;Online;true;en;employeegroup
 
 # Insert Products
-INSERT_UPDATE Product;code[unique=true];name;band(code);$supercategories;manufacturerName;manufacturerAID;unit(code);ean;variantType(code);$catalogVersion;$approved
+INSERT_UPDATE Product;code[unique=true];name;band(code);hashtag[lang=en];hashtag[lang=de];$supercategories;manufacturerName;manufacturerAID;unit(code);ean;variantType(code);$catalogVersion;$approved
                      ;201701;The Grand Little x Tour;A001;;x;y;pieces;;Concert
 
 # Insert Products
