@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="876dab6a-1e8a-4879-ba71-12bfe0aaf440" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/localization/concerttours-locales_de.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/localization/concerttours-locales_de.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/localization/concerttours-locales_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/localization/concerttours-locales_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/constants/GeneratedConcerttoursConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedBand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedConcerttoursManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedNews.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/gensrc/concerttours/jalo/GeneratedVenue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/resources/concerttours-items.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +88,8 @@
       <updated>1579257845762</updated>
       <workItem from="1579257847820" duration="7998000" />
       <workItem from="1579503120510" duration="16456000" />
-      <workItem from="1579589396095" duration="12305000" />
+      <workItem from="1579589396095" duration="12692000" />
+      <workItem from="1579677615408" duration="2369000" />
     </task>
     <servers />
   </component>
