@@ -1,13 +1,8 @@
 
 <Server port="${tomcat.internalserver.port}" shutdown="SHUTDOWN">
 
-<<<<<<< HEAD
-  <!-- For security reasons remote JMX access is disabled. You can still use local process to access JMX beans. If you need to enable remote JMX - uncomment this listener
+
   <Listener className="org.apache.catalina.mbeans.JmxRemoteLifecycleListener" rmiRegistryPortPlatform="${tomcat.jmx.port}" rmiServerPortPlatform="${tomcat.jmx.server.port}" />
-  -->
-=======
-  <Listener className="org.apache.catalina.mbeans.JmxRemoteLifecycleListener" rmiRegistryPortPlatform="${tomcat.jmx.port}" rmiServerPortPlatform="${tomcat.jmx.server.port}" />
->>>>>>> 5563fcbe026eb10ed0942e3288223798326e3d93
 
   <!-- If you want to use the jndi uncoment this listener
   <Listener className="de.hybris.tomcat.HybrisGlobalResourcesLifecycleListener"  dataSourceName="${db.pool.fromJNDI}"/>
