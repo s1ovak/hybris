@@ -1,27 +1,29 @@
 
 <Server port="${tomcat.internalserver.port}" shutdown="SHUTDOWN">
 
-<<<<<<< HEAD
-  <!-- For security reasons remote JMX access is disabled. You can still use local process to access JMX beans. If you need to enable remote JMX - uncomment this listener
-  <Listener className="org.apache.catalina.mbeans.JmxRemoteLifecycleListener" rmiRegistryPortPlatform="${tomcat.jmx.port}" rmiServerPortPlatform="${tomcat.jmx.server.port}" />
-  -->
-=======
-  <Listener className="org.apache.catalina.mbeans.JmxRemoteLifecycleListener" rmiRegistryPortPlatform="${tomcat.jmx.port}" rmiServerPortPlatform="${tomcat.jmx.server.port}" />
->>>>>>> 5563fcbe026eb10ed0942e3288223798326e3d93
+  <Listener className="com.springsource.tcserver.serviceability.rmi.JmxSocketListener"
+            port="${tomcat.jmx.port}"
+            bind="127.0.0.1" 
+            useSSL="false" 
+            passwordFile="${catalina.base}/conf/jmxremote.password"
+            accessFile="${catalina.base}/conf/jmxremote.access" 
+            authenticate="true"/>
+
+  <Listener className="com.springsource.tcserver.serviceability.deploy.TcContainerDeployer" />
 
   <!-- If you want to use the jndi uncoment this listener
   <Listener className="de.hybris.tomcat.HybrisGlobalResourcesLifecycleListener"  dataSourceName="${db.pool.fromJNDI}"/>
   -->
 
   <GlobalNamingResources>
-
-		<!-- If you want to use the jndi database resource please set db.pool.fromJNDI property and uncomment following block and listener above.
-			 Furthermore you have to copy the related jdbc library from platform/lib/dbdriver to the tomcat/lib folder -->
+  
+	  	<!-- If you want to use the jndi database resource please set db.pool.fromJNDI property and uncomment following block and listener above.
+			 Furthermore you have to copy the related jdbc library from platform/lib/dbdriver to tcServer/[instance]/lib folder -->
 		<!-- <Resource 	name="${db.pool.name}"
- 						auth="Container"
+ 						auth="Container" 
  						type="javax.sql.DataSource"
-              		maxTotal="${db.pool.maxActive}"
-              		maxIdle="${db.pool.maxIdle}"
+              		maxTotal="${db.pool.maxActive}" 
+              		maxIdle="${db.pool.maxIdle}" 
               		maxWaitMillis="${db.pool.maxWait}"
               		testWhileIdle="${db.pool.testWhileIdle}"
 						timeBetweenEvictionRunsMillis="${db.pool.timeBetweenEvictionRunsMillis}"
@@ -29,23 +31,24 @@
 						numTestsPerEvictionRun="${db.pool.numTestsPerEvictionRun}"
 						testOnBorrow="${db.pool.testOnBorrow}"
 						testOnReturn="${db.pool.testOnReturn}"
-              		username="${db.username}"
-             		password="${db.password.XMLENCODED}"
+              		username="${db.username}" 
+             		password="${db.password.XMLENCODED}" 
               		driverClassName="${db.driver}"
-			url="${db.url.XMLENCODED}"
+              		url="${db.url.XMLENCODED}"
 			useStatementFacade="${db.statement.facade}"/>
         -->
 
 		<!-- If you want to use a mail JNDI resource please set mail.fromJNDI property and uncomment following block.
-		     Furthermore you have to copy the mail library from ext/core/lib to tomcat/lib -->
+		     Furthermore you have to copy the mail library from ext/core/lib to tcServer/[instance]/lib -->
 		<!-- <Resource 	name="mail/Session" auth="Container"
 		        		type="javax.mail.Session"
-		        		mail.transport.protocol="smtp"
+		        		mail.transport.protocol="smtp" 
 		        		mail.smtp.host="${mail.smtp.server}"
 		        		mail.smtp.from="${mail.from}"
 		        		description="Global E-Mail Resource"
 		    		/>-->
-
+		
+    
   </GlobalNamingResources>
 
 
@@ -57,66 +60,63 @@
 			        minSpareThreads="${tomcat.minsparethreads}"
 			        maxIdleTime="${tomcat.maxidletime}"/>
 
-    <Connector port="${tomcat.http.port}"
-			   maxHttpHeaderSize="8192"
-			   maxPostSize="6291456"
-               maxThreads="${tomcat.maxthreads}"
+    <Connector port="${tomcat.http.port}" 
+    				maxHttpHeaderSize="8192"
+               maxThreads="${tomcat.maxthreads}" 
                protocol="HTTP/1.1"
                executor="hybrisExecutor"
-               enableLookups="false"
+               enableLookups="false" 
                acceptCount="100"
-               connectionTimeout="20000"
+               connectionTimeout="20000" 
                URIEncoding="UTF-8"
-               disableUploadTimeout="true" />
+               disableUploadTimeout="true"
+               redirectPort="${tomcat.ssl.port}" />
 
-    <Connector port="${tomcat.ssl.port}"
-			   maxHttpHeaderSize="8192"
-			   maxPostSize="6291456"
-               maxThreads="150"
+    <Connector port="${tomcat.ssl.port}" 
+    				maxHttpHeaderSize="8192"
+               maxThreads="150" 
                protocol="HTTP/1.1"
                executor="hybrisExecutor"
-               enableLookups="false"
+               enableLookups="false" 
                acceptCount="${tomcat.acceptcount}"
-               connectionTimeout="20000"
+               connectionTimeout="20000" 
                disableUploadTimeout="true"
                URIEncoding="UTF-8"
                SSLEnabled="true"
-					scheme="https"
-					secure="true"
-					clientAuth="false"
-   				sslProtocol = "TLS"
+					scheme="https" 
+					secure="true" 
+					clientAuth="false"            
+   				sslProtocol = "TLS" 
    				keyAlias="${tomcat.ssl.keystore.alias}"
    				keystoreFile="${tomcat.ssl.keystore.path}"
    				keystorePass="${tomcat.ssl.keystore.password}"
                 />
 
-    <!--
+ 	<!--
     This might evaluate into 
     <Connector protocol="AJP/1.3" port="${tomcat.ajp.port}" proxyPort="${proxy.http.port}" redirectPort="${proxy.ssl.port}" useIPVHosts="${tomcat.ajp.useipv}" />  
     where the tomcat.ajp.port is mandatory property to render this connector. 
      --> 
 	${tomcat.connectors.ajp.plain}	
 
-    <Engine name="Catalina" defaultHost="localhost" startStopThreads="${tomcat.startStopThreads}">
 
+    <Engine name="Catalina" defaultHost="localhost" startStopThreads="${tomcat.startStopThreads}">
+	
 			<Valve 	className="org.apache.catalina.valves.AccessLogValve"
              		directory="${HYBRIS_LOG_DIR}/tomcat"
 	      		 	prefix="access."
         	   		suffix=".log"
 	      		 	pattern="combined"
-          />
-
-      <Host 	name="localhost"
+          />		 
+	
+      <Host 	name="localhost" 
       			appBase="webapps"
-		       	unpackWARs="false"
+		       	unpackWARs="true" 
 		       	autoDeploy="false"
 		       	startStopThreads="${tomcat.startStopThreads}">
-		       	
-		        <Valve className="org.apache.catalina.valves.ErrorReportValve" 
-		               showReport="${tomcat.errorReport.showReport}" 
-		               showServerInfo="${tomcat.errorReport.showServerInfo}"/>
 
-			${tomcat.webapps}
+			<!-- Minimal configuration of the back office web applications allowing to administrate system while it is not initialized or not uptodate -->
+			${tomcat.minimal.webapps}
 
 
       </Host>
