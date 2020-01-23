@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="876dab6a-1e8a-4879-ba71-12bfe0aaf440" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/facades/impl/DefaultBandFacade.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/classes/concerttours/facades/impl/DefaultBandFacade.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/custom/concerttours/src/concerttours/facades/impl/DefaultBandFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/bin/custom/concerttours/src/concerttours/facades/impl/DefaultBandFacade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +89,8 @@
       <workItem from="1579257847820" duration="7998000" />
       <workItem from="1579503120510" duration="16456000" />
       <workItem from="1579589396095" duration="12692000" />
-      <workItem from="1579677615408" duration="8085000" />
+      <workItem from="1579677615408" duration="12264000" />
+      <workItem from="1579712386896" duration="4284000" />
     </task>
     <servers />
   </component>

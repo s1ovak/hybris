@@ -21,7 +21,7 @@ public class DefaultBandFacade implements BandFacade
     private static final String BAND_DETAIL_FORMAT = "band.detail.format.name";
     private BandService bandService;
     private MediaService mediaService;
-    private ConfigurationService configService;
+    private ConfigurationService configurationService;
     @Override
     public List<BandData> getBands()
     {
@@ -29,7 +29,7 @@ public class DefaultBandFacade implements BandFacade
         final List<BandData> bandFacadeData = new ArrayList<>();
         if (bandModels!=null && !bandModels.isEmpty()) //6.2
         {
-            final String mediaFormatName = configService.getConfiguration().getString(BAND_LIST_FORMAT);
+            final String mediaFormatName = configurationService.getConfiguration().getString(BAND_LIST_FORMAT);
             System.out.println("mediaFormatName:"+mediaFormatName);
             final MediaFormatModel format = mediaService.getFormat(mediaFormatName);
             for (final BandModel sm : bandModels)
@@ -82,7 +82,7 @@ public class DefaultBandFacade implements BandFacade
             }
         }
         // Now we can create the BandData transfer object
-        final String mediaFormatName = configService.getConfiguration().getString(BAND_DETAIL_FORMAT);
+        final String mediaFormatName = configurationService.getConfiguration().getString(BAND_DETAIL_FORMAT);
         final MediaFormatModel format = mediaService.getFormat(mediaFormatName);
         final BandData bandData = new BandData();
         bandData.setId(band.getCode());
@@ -118,8 +118,8 @@ public class DefaultBandFacade implements BandFacade
     }
 
     @Required
-    public void setConfigurationService(final ConfigurationService configService)
+    public void setConfigurationService(final ConfigurationService configurationService)
     {
-        this.configService = configService;
+        this.configurationService = configurationService;
     }
 }
